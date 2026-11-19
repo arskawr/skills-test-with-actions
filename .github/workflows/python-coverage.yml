@@ -1,5 +1,4 @@
 name: Python Coverage
-
 on:
   pull_request:
     branches:
@@ -40,3 +39,4 @@ jobs:
 
       - name: Fail if below threshold
         run: coverage report --fail-under=90
+ 
